@@ -2,8 +2,6 @@
 module tb;
  
   int arr[$];  
-  
-  
  initial begin
    
    arr={1,2,3};
