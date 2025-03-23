@@ -4,7 +4,7 @@ module tb;
   int arr[$];  
  initial begin
    
-   arr={1,2,3};
+ arr={1,2,3};
     $display("arr: %0p", arr);
    
    arr.push_front(7);          //add data in front
